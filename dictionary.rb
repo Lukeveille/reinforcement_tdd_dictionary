@@ -12,7 +12,7 @@ class Dictionary
   end
 
   def include?(value)
-    return true if @entries.include?(value)
+    @entries.include?(value)
   end
 
   def find(value)
